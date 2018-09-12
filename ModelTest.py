@@ -37,7 +37,6 @@ original = ToArray(original, type='image')
 
 get_accuracy(result, label)
 
-# show(label[8])
 show(original[8])
 show(result[8])
 
