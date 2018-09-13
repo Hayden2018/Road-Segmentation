@@ -4,7 +4,6 @@ from Models import *
 from DataProcessing import ToArray, show, ToTensor
 
 gpu0 = 'cuda:0'
-gpu1 = 'cuda:1'
 
 Net = ConvNet().to(gpu0)
 
